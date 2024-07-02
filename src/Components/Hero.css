@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&family=Rancho&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+.heromain{
+    background-image: linear-gradient(to bottom right,rgb(95, 0, 16),rgb(141, 0, 0),rgb(0, 12, 34),rgb(0, 105, 56),rgb(92, 83, 0));
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    text-align: center;
+    font: 150px "Rancho", sans-serif;
+    text-shadow: 0 1px 20px rgb(206, 0, 113);
+    color: rgb(187, 145, 255);
+}
