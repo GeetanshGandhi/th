@@ -11,17 +11,7 @@
     background-image: linear-gradient(to right,rgb(146, 0, 122), rgb(58, 0, 53), rgb(0, 0, 0));
     animation: titlecolor 5s linear infinite;
 }
-@keyframes titlecolor {
-    0%{
-        color: rgb(100, 0, 25);        
-    }    
-    50%{
-        color: white;
-    }
-    100%{
-        color: rgb(100,0,25)
-    }
-}
+
 .flex-container{
     display: flex;
     justify-content: center;
@@ -50,7 +40,7 @@
     transition: all 0.3s ease-out;
 }
 .mainimg-wrapper{
-    animation: fade-inimg linear;
+    animation: fade-inimg 3s linear;
     animation-timeline: view();
     animation-range: entry 0% cover 50%;
     width: 300px;
@@ -68,16 +58,7 @@
     transform: scale(1.6);
     z-index: 1;
 }
-@keyframes fade-inimg {
-    from{
-        scale: 0;
-        opacity: 0;
-    }
-    to{
-        scale:1;
-        opacity: 1;
-    }
-}
+
 .private-container{
     padding: 20px 20px 100px 20px;
     display: flex;
@@ -91,12 +72,9 @@
     height: 400px;
     perspective: 450px;
     margin: 20px 30px;
-    animation: privimganime linear;
+    animation: privimganime 3s linear;
     animation-timeline: view();
     animation-range: entry 0% cover 50%;
-}
-.private-item:hover > .card{
-    transform: rotateX(180deg);
 }
 .card{
     height: 100%;
@@ -104,6 +82,9 @@
     position: relative;
     transition: all 1.3s ease-out;
     transform-style: preserve-3d;
+}
+.private-item:hover > .card{
+    transform: rotateX(180deg);
 }
 .front, .back{
     height: 100%;
@@ -141,5 +122,26 @@
     to{
         scale: 1;
         transform: translateX(0);
+    }
+}
+@keyframes titlecolor {
+    0%{
+        color: rgb(80, 0, 17);        
+    }    
+    50%{
+        color: white;
+    }
+    100%{
+        color: rgb(80,0,17);
+    }
+}
+@keyframes fade-inimg {
+    from{
+        scale: 0;
+        opacity: 0;
+    }
+    to{
+        scale:1;
+        opacity: 1;
     }
 }
