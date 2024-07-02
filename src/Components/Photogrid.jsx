@@ -132,6 +132,7 @@ export default function Photogrid() {
                 </div>
                 
             </div>
+            <p className="adio">That is it for now. I will See you in next One. ILY 💌</p>
         </div>
     )
 }

@@ -114,16 +114,13 @@
     height: 100%;
     border-radius: 40px;
 }
-/* @keyframes privimganime {
-    from{
-        scale: 0;
-        transform: translateX(-100vw);
-    }
-    to{
-        scale: 1;
-        transform: translateX(0);
-    }
-} */
+.adio{
+    font: 60px "Leckerli One";
+    text-decoration: underline;
+    color: rgb(255, 0, 149);
+    padding: 0 0 50px 0;
+    text-align: center;
+}
 @keyframes titlecolor {
     0%{
         color: rgb(80, 0, 17);        
@@ -135,13 +132,3 @@
         color: rgb(80,0,17);
     }
 }
-/* @keyframes fade-inimg {
-    from{
-        scale: 0;
-        opacity: 0;
-    }
-    to{
-        scale:1;
-        opacity: 1;
-    }
-} */

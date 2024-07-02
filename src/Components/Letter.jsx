@@ -16,7 +16,9 @@ export default function Letter() {
 				<p className="let-body">{mess1}<br />{mess2}<br />{mess3}</p>
 				</ScrollAnimation>				
 				
+				<ScrollAnimation animateIn='bounceInRight' animateOut='bounceOutLeft'>
 				<p className="let-body">{mess4}</p>
+				</ScrollAnimation>
 			</div>
 		</div>
 	)
