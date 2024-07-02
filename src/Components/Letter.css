@@ -31,7 +31,7 @@
     background-image: linear-gradient(to bottom, rgb(192, 0, 0),black, black, rgb(153, 0, 77));
     border-radius: 20px;
 }
-@keyframes fade-in{
+/* @keyframes fade-in{
     from{ 
         opacity: 0;
         transform: translateX(-100vh);
@@ -40,4 +40,4 @@
         opacity: 1;
         transform: translateX(0);
     }
-}
+} */

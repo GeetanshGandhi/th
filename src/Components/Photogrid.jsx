@@ -1,49 +1,71 @@
 import React from 'react'
 import './Photogrid.css'
+import ScrollAnimation from 'react-animate-on-scroll'
 export default function Photogrid() {
     return (
         <div className='photo-main'>
             <p className="title">They describe our three years...</p>
             <div className="flex-container">
                 <div className="flex-item">
+                    <ScrollAnimation animateIn='bounceInRight' duration={2} animateOut='flipOutY' offset={200}>
                     <div className="img-wrapper">
                         <img className='img-img' src={require("../images/por2.jpg")} alt="al" />
                     </div>
+                    </ScrollAnimation>
+                    
+                    <ScrollAnimation animateIn='bounceInRight' duration={2} animateOut='flipOutY' offset={100}>
                     <div className="img-wrapper">
-                        <img src={require("../images/lan1.jpg")} alt="" className="img-img" />
+                        <img className='img-img' src={require("../images/lan1.jpg")} alt="al" />
                     </div>
+                    </ScrollAnimation>
                 </div>
                 <div className="flex-item">
+                <ScrollAnimation animateIn='bounceInRight' duration={2} animateOut='flipOutY' offset={100}>
                     <div className="img-wrapper">
-                        <img src={require("../images/lan2.jpg")} alt="alt" className="img-img" />
+                        <img className='img-img' src={require("../images/lan2.jpg")} alt="al" />
                     </div>
+                    </ScrollAnimation>
+                    <ScrollAnimation animateIn='bounceInRight' duration={2} animateOut='flipOutY' offset={100}>
                     <div className="img-wrapper">
-                        <img src={require("../images/lan3.jpg")} alt="alt" className="img-img" />
+                        <img className='img-img' src={require("../images/lan3.jpg")} alt="al" />
                     </div>
+                    </ScrollAnimation>
+                    <ScrollAnimation animateIn='bounceInRight' duration={2} animateOut='flipOutY' offset={100}>
                     <div className="img-wrapper">
-                        <img src={require("../images/lan4.jpg")} alt="alt" className="img-img" />                        
+                        <img className='img-img' src={require("../images/lan4.jpg")} alt="al" />
                     </div>
+                    </ScrollAnimation>
                 </div>
                 <div className="flex-item">
+                <ScrollAnimation animateIn='bounceInLeft' duration={4} animateOut='flipOutX' offset={250}>
                     <div className="mainimg-wrapper">
-                        <img src={require("../images/mainimg.jpg")} alt="" className="main-img" />
+                        <img className='main-img' src={require("../images/mainimg.jpg")} alt="al" />
                     </div>
+                    </ScrollAnimation>
                 </div>
                 <div className="flex-item">
+                <ScrollAnimation animateIn='bounceInRight' duration={2} animateOut='flipOutY' offset={100}>
                     <div className="img-wrapper">
-                        <img src={require("../images/lan5.jpg")} alt="alt" className="img-img" /> 
+                        <img className='img-img' src={require("../images/lan5.jpg")} alt="al" />
                     </div>
+                    </ScrollAnimation>
+                    <ScrollAnimation animateIn='bounceInRight' duration={2} animateOut='flipOutY' offset={200}>
                     <div className="img-wrapper">
                         <img className='img-img' src={require("../images/por1.jpg")} alt="al" />
                     </div>
+                    </ScrollAnimation>
                 </div>
                 <div className="flex-item">
+                <ScrollAnimation animateIn='bounceInRight' duration={2} animateOut='flipOutY' offset={200}>
                     <div className="img-wrapper">
-                        <img src={require("../images/square1.jpg")} alt="alt" className="img-img" />
+                        <img className='img-img' src={require("../images/square1.jpg")} alt="al" />
                     </div>
+                    </ScrollAnimation>
+                    <ScrollAnimation animateIn='bounceInRight' duration={2} animateOut='flipOutY' offset={200}>
                     <div className="img-wrapper">
-                        <img src={require("../images/square2.jpg")} alt="alt" className="img-img" />
+                        <img className='img-img' src={require("../images/square2.jpg")} alt="al" />
                     </div>
+                    </ScrollAnimation>
                 </div>
             </div>
 
